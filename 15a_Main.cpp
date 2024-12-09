@@ -7,16 +7,16 @@ using namespace std;
 
 int main() {
 	// driver
-	string result;
+	char result = ' ';
 
-	result = "" + character('a', 1);
-	cout << "character('a', 1) returned" << result << endl;
-	result = "" + character('a', -1);
-	cout << "character('a', -1) returned" << result << endl;
-	result = "" + character('Z', -1);
-	cout << "character('Z', -1) returned" << result << endl;
-	result = "" + character('?', -5);
-	cout << "character('?', -5) returned" << result << endl;
-	result = "" + character('A', 32);
-	cout << "character('A', 32) returned" << result << endl;
+	result = character('a', 1);
+	cout << "character('a', 1) returned: " << result << endl;
+	result = character('a', -1);
+	cout << "character('a', -1) returned: " << result << endl;
+	result = character('Z', -1);
+	cout << "character('Z', -1) returned: " << result << endl;
+	result = character('?', -5);
+	cout << "character('?', -5) returned: " << result << endl;
+	result = character('A', 32);
+	cout << "character('A', 32) returned: " << result << endl;
 }
