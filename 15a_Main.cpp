@@ -10,13 +10,13 @@ int main() {
 	char result = ' ';
 
 	result = character('a', 1);
-	cout << "character('a', 1) returned: " << result << endl;
+	cout << "character('a', 1) returned: " << result << endl << endl;
 	result = character('a', -1);
-	cout << "character('a', -1) returned: " << result << endl;
+	cout << "character('a', -1) returned: " << result << endl << endl;
 	result = character('Z', -1);
-	cout << "character('Z', -1) returned: " << result << endl;
+	cout << "character('Z', -1) returned: " << result << endl << endl;
 	result = character('?', -5);
-	cout << "character('?', -5) returned: " << result << endl;
+	cout << "character('?', -5) returned: " << result << endl << endl;
 	result = character('A', 32);
 	cout << "character('A', 32) returned: " << result << endl;
 }
